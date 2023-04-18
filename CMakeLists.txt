@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1.2)
+cmake_minimum_required(VERSION 3.15)
 project(SQLite3 C)
 
 add_library(${PROJECT_NAME} sqlite3.c sqlite3.h sqlite3ext.h)
